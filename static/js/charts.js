@@ -102,7 +102,7 @@ function init() {
       // 10. Use Plotly to plot the data with the layout. 
       Plotly.newPlot("bar", barData, barLayout);
   
-  // Bubble and Gauge charts
+  /* // Bubble and Gauge charts
       // 1. Create the trace for the bubble chart.
       var bubbleData = [{
         x: otu_ids,
@@ -155,6 +155,6 @@ function init() {
       };
   
       // 6. Use Plotly to plot the gauge data and layout.
-      Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+      Plotly.newPlot("gauge", gaugeData, gaugeLayout); */
     });
   }
